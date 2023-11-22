@@ -88,8 +88,7 @@
                             <p>${eachPost.text}</p> 
                             <button onclick="editPost('${eachPost.id}', '${eachPost.title}', '${eachPost.text}')">Edit</button>
                             <button onclick="deletePost('${eachPost.id}')">Delete</button>
-                        </div> 
-                        <br>`
+                        </div>`
                 })
                 document.querySelector("#allPosts").innerHTML = postHtml;
             }
