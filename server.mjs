@@ -15,7 +15,7 @@ app.use("/api/v2", apiv2Router)
 app.use("/static", express.static(path.join(__dirname, "static")))
 app.use("/", express.static(path.join(__dirname, "public")))
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3002
 app.listen(PORT, () => {
     console.log("Example server listening on port " + PORT)
 })
